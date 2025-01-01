@@ -21,11 +21,11 @@ public class Bai22_Vandung {
             }
 
             Calendar cal = Calendar.getInstance();
-            cal.set(year, month - 1, day);
+            cal.set(year, month - 1, day); // month - 1 vi trong java thang tinh tu 0 - 11 ma khi nhap la thang thuc te
             int namSinh = cal.get(Calendar.YEAR);
             int ngaySinh = cal.get(Calendar.DAY_OF_MONTH);
             int thangSinh = cal.get(Calendar.MONTH);
-            System.out.println("Ngay thang nam sinh cua ban la: " + ngaySinh + "/" + (thangSinh + 1) + "/" + namSinh);
+            System.out.println("Ngay thang nam sinh cua ban la: " + ngaySinh + "/" + (thangSinh + 1) + "/" + namSinh); // sau khi nhap + 1 vì thang 0 - 11 va khi + 1 thi kq tra ve la thang thuc te
 
             // Lay nam hien tai
             Calendar now = Calendar.getInstance();

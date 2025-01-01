@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class namnhuan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Nhap nam :");
         int nam = sc.nextInt();
 

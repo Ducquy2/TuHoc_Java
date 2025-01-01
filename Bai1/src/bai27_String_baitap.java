@@ -11,7 +11,7 @@ public class bai27_String_baitap {
         // duyet qua tung phan va chuyen no sang kieu so neu co the
         for (String pt : part){
             try{
-                //chuyen chuoi sang so nguyen bang parseInt() cua ;op Integer
+                //chuyen chuoi sang so nguyen bang parseInt() cua lop Integer
                 int num  = Integer.parseInt(pt);
                 sum+=num;//Cong them so vao luong
                 count++; // sau khi cong thi tang bien dem

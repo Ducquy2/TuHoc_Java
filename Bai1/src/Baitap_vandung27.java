@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Baitap_vandung27 {
     public static void main(String[] args) {
+
         //1. viet chuong trinh tao 1 mang 1 chieu gom cac ptu la so nguyen, co n
         //ptu nagu nghien, n do nguoi nhap tu ban phim
         Scanner sc = new Scanner(System.in);
@@ -20,6 +21,7 @@ public class Baitap_vandung27 {
             N[i] = ngauNhien;
 
         }
+
         //xuat cac gia tri trong mang
         System.out.println("Mang xuat ngau nhien la : ");
         System.out.println(Arrays.toString(N));
@@ -30,7 +32,8 @@ public class Baitap_vandung27 {
             N[i] = N[j];
             N[j] = temp;
         }
-        //xuat mang sao nguoc
+
+        //xuat mang dao nguoc
         System.out.println("Mang dao nguoc la :");
         System.out.println(Arrays.toString(N));
 
@@ -64,9 +67,5 @@ public class Baitap_vandung27 {
         }else {
             System.out.println(n1+" ko ton tai trong mang");
         }
-
-
-
-
     }
 }
